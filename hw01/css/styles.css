@@ -1,0 +1,246 @@
+/*
+COLOR PALETTE
+https://coolors.co/32373b-ff2e00-fea82f-ebf2e3-23c5c2
+#FF2E00 - red
+#FFC313 - yellow
+#FAFEF1- ivory
+#42B7B5 - blue
+#2F3061 - dark blue
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+    /* background: #EEE; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+body {font-family: 'Roboto', sans-serif;
+font-size: 16px;
+background: #FAFEF1;
+margin: 0;
+}
+
+h1, h2, h3 {font-family: 'Merienda One', cursive;
+}
+
+h1, h2, h3, p, img {margin-left: 60px;
+}
+
+h2{color: #FF2E00;
+  font-size: 36px;
+}
+
+h3 {color: #2F3061;
+  font-size: 20px;
+}
+
+a {color: #2F3061;
+}
+
+.tab {margin-top: 10px;
+  color: #2F3061;
+  background: #FFC313;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  width: 150px;
+}
+
+
+/* header
+------------------------------------*/
+h1 {font-size: 70px;
+  color: #FFC313;
+  line-height: 1;
+}
+
+header h2, header p {
+  padding-left: 10px;
+}
+
+header h2 {color: #2F3061;
+}
+
+header p {color: #FAFEF1
+}
+
+header {background:#42B7B5;
+  padding-top: 10px;
+  padding-right: 400px;
+  padding-bottom: 60px;
+}
+
+#tabs1 {padding-left: 60px;}
+
+/* projects
+------------------------------------*/
+#projects h2 {
+  margin-top: 50px;
+}
+
+.project1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "text1 picture1";
+    min-height: 80vh;
+    row-gap: 10px;
+    column-gap: 1px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+.text1 {grid-area:text1;
+}
+
+.picture1 {grid-area: picture1;
+  margin-top: 20px;
+}
+
+.project1 h3, .project1 p, .project1 img {
+padding: 10px;
+border-style: solid;
+border-color: #FF2E00;
+border-width: 8px;
+}
+
+.project2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "text2 picture2";
+    min-height: 80vh;
+    row-gap: 10px;
+    column-gap: 1px;
+    margin-bottom: 70px;
+}
+
+.text2 {grid-area: text2;
+}
+
+.picture2 {grid-area: picture2;
+  margin-top: 20px;
+}
+
+.project2 h3, .project2 p, .project2 img {
+padding: 10px;
+border-style: solid;
+border-color: #FFC313;
+border-width: 8px;
+}
+
+.project3 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "text3 picture3";
+    min-height: 80vh;
+    row-gap: 10px;
+    column-gap: 1px;
+    margin-bottom: 90px;
+}
+
+.text3 {grid-area: text3;
+}
+
+.picture3 {grid-area: picture3;
+  margin-top: 20px;
+}
+
+.project3 h3, .project3 p, .project3 img {
+padding: 10px;
+border-style: solid;
+border-color: #FF2E00;
+border-width: 8px;
+}
+
+#projects .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn {
+  margin-left: 60px;
+}
+
+
+/* work experience
+------------------------------------*/
+#work-experience {background: #42B7B5;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: #FAFEF1;
+}
+
+.job1, .job2, .job3 {display: grid;
+  grid-template-columns: 250px 600px;
+  grid-template-rows: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  column-gap: 15px;
+}
+
+.job1, .job2 {border-bottom: 5px dotted #FFC313;
+}
+
+.title p {line-height: 1px;
+}
+
+#work-experience h2 {
+  color: #FFC313;
+}
+
+
+/* education
+------------------------------------*/
+#education {padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#schools {padding-left: 10px;}
+
+/* footer
+------------------------------------*/
+footer {background: #42B7B5;
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px
+}
+
+footer h2 {color: #FAFEF1;
+  text-align: center;
+}
+
+footer a {padding: 5px;
+    display: inline-block;
+    color: #FAFEF1;
+}
+
+.tab2 {margin-top: 10px;
+  color: #2F3061;
+  background: #FFC313;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  width: 150px;
+}
+
+#tabs2 {text-align: center;
+  padding-bottom:20px;
+}
