@@ -1,6 +1,8 @@
 
-* {
-  background-image: url(http://clipart-library.com/images/kiKorypqT.jpg)
+body {
+  background-image: url(http://clipart-library.com/images/kiKorypqT.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
