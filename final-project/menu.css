@@ -1,0 +1,62 @@
+body {
+  background-size: cover;
+  background-image: url(http://clipart-library.com/images/kiKorypqT.jpg);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway&display=swap');
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "menu"
+  "drinks image";
+}
+
+.menu {
+  grid-area: menu;
+  padding-left: 50px;
+  line-height: 0px;
+}
+
+.drinks {
+  grid-area: drinks;
+  margin-left: 20%;
+  margin-top: 250px;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 4px;
+  width: 300px;
+}
+
+.image {
+  grid-area: image;
+  display: block;
+  max-width: 80%;
+  margin-left: 400px;
+  }
+
+img {
+  max-width: 100%
+}
+
+h1 {
+  font-size: 135px;
+  color: pink;
+  font-family: 'Bree Serif', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: pink;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  display: block;
+}
