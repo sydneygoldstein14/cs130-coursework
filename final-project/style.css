@@ -1,8 +1,9 @@
-
-* {
-  background-image: url(http://clipart-library.com/images/kiKorypqT.jpg)
+body {
+  background-size: cover;
+  background-image: url(http://clipart-library.com/images/kiKorypqT.jpg);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway&display=swap');
 .container {
   display: grid;
   grid-template-columns: auto;
@@ -17,21 +18,30 @@
   grid-area: title;
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
-
+  color: white;
+  font-family: 'Bree Serif', serif;
+  font-size: 75px;
 }
 
 .description {
   grid-area: description;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .footer {
   grid-area: footer;
   display: flex;
   justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 
 .tab {
