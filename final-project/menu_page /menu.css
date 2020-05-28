@@ -1,6 +1,7 @@
 body {
-  background-size: cover;
   background-image: url(http://clipart-library.com/images/kiKorypqT.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway&display=swap');
@@ -33,12 +34,15 @@ body {
 .image {
   grid-area: image;
   display: block;
-  max-width: 80%;
   margin-left: 400px;
+  /* max-width: 10px; */
+  padding-top: 85px;
+  padding-left: 90px;
+
   }
 
-img {
-  max-width: 100%
+.image img {
+  max-height: 400px;
 }
 
 h1 {
