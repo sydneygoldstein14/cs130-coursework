@@ -18,11 +18,18 @@ body {
 
 .title {
   grid-area: title;
-  display: flex;
+  display: block;
   justify-content: center;
   color: white;
   font-family: 'Bree Serif', serif;
-  font-size: 75px;
+  font-size: 70px;
+}
+
+.title img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .description {
@@ -38,6 +45,11 @@ body {
   padding-bottom: 40px;
 }
 
+.description img {
+  max-width: 100%;
+  max-height: 150px;
+}
+
 .footer {
   grid-area: footer;
   display: flex;
@@ -46,12 +58,15 @@ body {
   font-size: 20px;
 }
 
+.footer img {
+  max-width: 80%;
+  max-height: 100px;
+}
+
 .tab {
   margin-top: 10px;
   padding: 8px;
   border-radius: 2px;
-  width: 150px;
-  background: white;
   display: flex;
   justify-content: center;
 }
