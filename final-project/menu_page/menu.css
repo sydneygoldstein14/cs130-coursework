@@ -46,28 +46,30 @@ body {
 
 .image img {
   max-height: 400px;
-  padding-top: 200px;
+  padding-top: 180px;
 }
 
 .menu img {
   max-height: 200px;
 }
 
+
+
 .menu p {
   padding-left: 65px;
 }
 
-h1 {
+/* h1 {
   font-size: 135px;
-  color: pink;
+  color: #d100d1;
   font-family: 'Bree Serif', sans-serif;
   font-weight: bold;
-}
+} */
 
 p {
-  color: pink;
+  color: #d100d1;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 a {
