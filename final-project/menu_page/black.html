@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="menu.js">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="black.css">
 </head>
 <body>
     <div class="mug">
-        <div class="mug__inner">
+        <div class="mug__inner" id="fill">
             <div class="types foam"> foam </div>
             <div class="types milk"> steamed milk </div>
             <div class="types water"> water </div>
@@ -15,5 +16,14 @@
             <div class="types espresso"> espresso </div>
         </div>
     </div>
-    <select name="typeOfCoffe" class="typeOfCoffe"></select>
+        <select name="typeOfCoffee" class="typeOfCoffee">
+          <option value="black">BLACK</option>
+          <option value="latte">LATTE</option>
+          <option value="cappuccino">CAPPUCCINO</option>
+          <option value="americano">AMERICANO</option>
+          <option value="espresso">ESPRESSO</option>
+          <option value="mocha">MOCHA</option>
+          <option value="flatwhite">FLAT WHITE</option>
+          <option value="macchiato">MACCHIATO</option>
+        </select>
 </body>

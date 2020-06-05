@@ -16,6 +16,10 @@ body {
   padding-right: 270px;
 }
 
+.text {
+  grid-area: text;
+}
+
 .menu {
   grid-area: menu;
   line-height: 0px;
@@ -24,7 +28,7 @@ body {
 }
 
 .drinks {
-  padding-top: 70px;
+  padding-top: 100px;
   grid-area: drinks;
   margin-left: 20%;
   margin-top: 250px;
@@ -53,10 +57,13 @@ body {
   max-height: 200px;
 }
 
-
-
 .menu p {
-  padding-left: 65px;
+  padding-left: 90px;
+}
+
+.menu p > img {
+  height: 800px;
+  width: 600px;
 }
 
 /* h1 {
@@ -65,12 +72,6 @@ body {
   font-family: 'Bree Serif', sans-serif;
   font-weight: bold;
 } */
-
-p {
-  color: #d100d1;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
-}
 
 a {
   color: white;
