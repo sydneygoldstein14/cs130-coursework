@@ -19,6 +19,16 @@ body {
   transition: .8s;
 }
 
+.handle {
+  width: 112px;
+  height: 200px;
+  position: relative;
+  left: 240px;
+  bottom: 300px;
+  border-radius: 0 50px 160px 0;
+  border: 8px solid white;
+}
+
 .mug__inner {
   overflow: hidden;
   display: flex;
@@ -30,6 +40,11 @@ body {
   border-radius: 20px 20px 90px 90px;
   position: relative;
   z-index: -1;
+}
+
+.options {
+  position: relative;
+  bottom: 200px;
 }
 
 .types {

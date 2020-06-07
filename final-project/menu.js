@@ -1,7 +1,7 @@
 const select = $(".typeOfCoffee");
 
 const drinks = [
-  ["coffe name", "espresso", "chocolate", "water", "milk", "foam"],
+  ["coffee name", "espresso", "chocolate", "water", "milk", "foam"],
   ["latte", 40, 0, 0, 60, 10],
   ["cappucino", 40, 0, 0, 40, 20],
   ["americano", 20, 0, 80, 0, 0],

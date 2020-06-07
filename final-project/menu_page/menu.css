@@ -16,19 +16,31 @@ body {
   padding-right: 270px;
 }
 
-.text {
-  grid-area: text;
-}
 
 .menu {
   grid-area: menu;
   line-height: 0px;
-  max-height: 250px;
+  max-height: 280px;
   line-height: 20px;
+  padding-left: 100px;
+}
+
+.textbox {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  padding-left: 50px;
+  height: 230px;
+}
+
+.text {
+  width: 600px;
+  position: relative;
+  bottom: 95px;
 }
 
 .drinks {
-  padding-top: 100px;
+  padding-top: 75px;
   grid-area: drinks;
   margin-left: 20%;
   margin-top: 250px;
@@ -43,9 +55,8 @@ body {
   display: block;
   margin-left: 400px;
   /* max-width: 10px; */
-  padding-top: 85px;
-  padding-left: 90px;
-
+  padding-top: 50px;
+  padding-left: 80px;
   }
 
 .image img {
@@ -53,7 +64,7 @@ body {
   padding-top: 180px;
 }
 
-.menu img {
+.menu .headbox img {
   max-height: 200px;
 }
 
